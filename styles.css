@@ -1,0 +1,27 @@
+body {
+	background-color: #e5e5e5;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.panel {
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	border-style: 4px;
+	padding: 2 10px;
+	margin-bottom: 10px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+/* MEDIA QUERY */
+@media only screen
+and (min-device-width: 768px) {
+  /* STYLES GO IN HERE */
+  body {
+    background-color: red;
+  }
+}
